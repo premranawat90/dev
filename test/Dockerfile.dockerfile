@@ -2,7 +2,7 @@
 # FROM openjdk:8-jdk-alpine
  
 
-# Refer to Maven build -> finalName
+# Refer to Maven build -> finalName Name
 ARG JAR_FILE=target/SpringbootH2Database.jar 
 
 # cd /opt/app
