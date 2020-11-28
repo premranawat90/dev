@@ -1,7 +1,7 @@
 # For Java 8, try this
 # FROM openjdk:8-jdk-alpine
  
-
+FROM   maven:3.5-jdk-8 AS build  
 # Refer to Maven build -> finalName Name
 ARG JAR_FILE=target/SpringbootH2Database.jar 
 
